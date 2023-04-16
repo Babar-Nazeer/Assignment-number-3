@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendaation App</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<script src="app.js" defer></script>
+
+<body >
+
+    <h1 style="color:black"><i>Movie Recommendation App</i></h1>
+
+
+    <fieldset>
+        <a style=><b><i>GENERE</i></b></a>
+        <select id="searchGenere" type="text" placeholder="Enter genere">
+
+            <option placeholder="Select Genere">--Select Genere--</option>
+            <option value="Science Fiction">Science Fiction</option>
+            <option value="Action">Action</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Drama">Drama</option>
+            <option value="Horror">Horror</option>
+            <option value="Romance">Romance</option>
+            <option value="Thiller">Thiller</option>
+            <option value="Family">Family</option>
+            <option value="Animation">Animation</option>
+            <option value="Crime">Crime</option>
+            <option value="Music">Music</option>
+            <option value="Western">Western</option>
+            <option value="History">History</option>
+            <option value="War">War</option>
+            <option value="Mystery">Mystery</option>
+        </select>
+
+        <a ><b><i>YEAR</i></b></a>
+
+        <select id="searchYear" type="text" placeholder="Enter Year">
+            <option placeholder="Select Genere">--Select Year--</option>
+            <option value="2018">2021</option>
+            <option value="2018">2020</option>
+            <option value="2021">2019</option>
+            <option value="2020">2018</option>
+            <option value="2019">2017</option>
+            <option value="2018">2016</option>
+            <option value="2018">2015</option>
+            <option value="2018">2014</option>
+            <option value="2018">2013</option>
+            <option value="2018">2012</option>
+            <option value="2018">2011</option>
+            <option value="2018">2010</option>
+            <option value="2018">2009</option>
+            <option value="2018">2008</option>
+            <option value="2018">2007</option>
+            <option value="2018">2006</option>
+            <option value="2018">2005</option>
+            <option value="2018">2004</option>
+            <option value="2018">2003</option>
+            <option value="2018">2002</option>
+            <option value="2018">2001</option>
+            <option value="2018">2000</option>
+        </select>
+
+        <a ><b><i>Language</i></b></a>
+        <select id="searchLanguage" type="text" placeholder="Enter Language">
+            <option placeholder="Select Genere">--Select Language--</option>
+            <option value="English">English</option>
+            <option value="Japanese">Japanese</option>
+            <option value="French">French</option>
+            <option value="German">German</option>
+            <option value="Mandarin">Mandarin</option>
+            <option value="Spanish">spanish</option>
+            <option value="Korean">Korean</option>
+            <option value="Danish">Danish</option>
+            <option value="Portuguese">Portuguese</option>
+            <option value="Norwegian">Norwegian</option>
+            <option value="Italian">Italian</option>
+            <option value="Swedish">Swedish</option>
+            <option value="Dutch">Dutch</option>
+            <option value="Russian">Russian</option>
+            <option value="Cantonese">Cantonese</option>
+        </select>
+
+        <a ><b><i>RATING</i></b></a>
+
+        <select id="searchRating" type="text" placeholder="Enter Rating"><br><br>
+            <option placeholder="Select Genere">--Select Rating--</option>
+            <option value="1">1 </option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 </option>
+            <option value="6">6 </option>
+            <option value="7">7 </option>
+            <option value="8">8 </option>
+            <option value="9">9 </option>
+            <option value="10">10 </option>
+
+        </select><br><br>
+        
+            <button id="btnElem">Search</button><br><br>
+       
+        <table>
+            <thead>
+                <tr>
+                    <th style="color:black"><i>Rank</i></th>
+                    <th style="color:black"><i>Movie</i></th>
+                    <th style="color:black"><i>Year</i></th>
+                </tr>
+            </thead>
+            <tbody id="dataOutput">
+                <tr id="tableElem"></tr>
+            </tbody>
+        </table>
+    </fieldset>
+
+
+
+
+    
+</body>
+
+</html>
